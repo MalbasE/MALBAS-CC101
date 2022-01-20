@@ -1,0 +1,243 @@
+<!--
+    Author: Malbas, Elmer
+	Purpose: Resume Form
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+	   <title>Malbas-Assignment3</title>
+	</head>
+	<body style="background-image:url(../assets/A.gif); background-repeat:no-repeat; background-size:100% 100%">
+	    <form method="GET">	
+		    <img src="../assets/2.jpg" align="right" style="padding-right:220px; padding-left:80px" height="100" width="150"/>
+			<h1 align="right" style="color:White;">JOB APPLICATION FORM</h1>
+			<h2 align="right" style="color:White;">Position applied for
+			<input type="text" id="pos" for="pos" name="pos" maxlength="20" size="20">
+			</h2>
+		    <h2  align="center" style="color:White;">Applicants Profile</h2>
+			<br>
+			
+			<table width="80%"  >
+			    <p align=center style="font-family:Times New Roman; background-color:White; color:Black">PERSONAL DATA</p>
+			    <tr>
+				    <td align="left" style="color:White;"><label id="name" for="name" name="name" >Name</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="name" name="name" maxlength="20" size="40" placeholder="Type your name here" ></td>
+			
+					<td align="left" style="width:70px" ><label id="date" for="date" name="date" style="color:White;">Date</label></td>
+					<td></td>
+					<td><input type="date" id="date" name="date"></td>
+				</tr>
+				<tr>
+				    <td align="left" ><label id="addr" for="addr" name="addr" style="color:White;">Address</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="addr" name="addr" maxlength="20" size="40" placeholder="Type your address here"></td>
+					
+					<td align="left" style="width:70px"><label id="gender" for="gender" name="gender" style="color:White;">Gender</label></td>
+					<td align="center"></td>
+					<td><input type="radio" id="gender" name="gender" value="Male" style="color:White;"><h style="color:White;">Male</h> &nbsp;&nbsp;<input type="radio" id="gender" name="gender" value="Female"><h style="color:White;">Female</h>
+					</td>
+				</tr>
+				<tr>
+				    <td align="left"><label id="tphone" for="tphone" name="tphone" style="color:White;">Telephone</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="tphone" name="tphone" maxlength="20" size="40" placeholder="Type your telehone number here"></td>
+					
+					<td align="left" style="width:50px"><label id="cphone" for="cphone" name="cphone" style="color:White;">Cellphone</label></td>
+					<td align="center">:</td>
+					<td ><input type="text" id="cphone" name="cphone" maxlength="20" size="25" placeholder="Type your cellphone number here"></td>
+				</tr>
+				<tr>
+				    <td  style="width:100px"><label id="email" for="email" name="email" style="color:White;">E-mail Address</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="email" name="email" maxlength="20" size="40" placeholder="Type your email address here"></td>
+				</tr>
+				<tr>
+				    <td align="left" style="width:100px"><label id="bdate" for="bdate" name="bdate" style="color:White;">Date of Birth</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="bdate" name="bdate" maxlength="20" size="40" placeholder="Type your birth date here"></td>
+					
+					<td align="left" style="width:90px"><label id="pdate" for="pdate" name="pdate" style="color:White;">Place of Birth</label></td>
+					<td align="center">:</td>
+					<td><input type="text" id="pdate" name="pdate" maxlength="20" size="25" placeholder="Type your birth date here"></td>
+				</tr>
+				<tr>
+				    <td align="lef" ><label id="civils" for="civils" name="civils" style="color:White;">Civil Status</label></td>
+					<td align="center"></td>
+					<td><input type="checkbox" id="civils" name="civils" value="Male"><h style="color:White;">Single</h> &nbsp;<input type="checkbox" id="civils" name="civils" value="Female"><h style="color:White;">Married</h>
+					&nbsp;<input type="checkbox" id="civils" name="civils" value="LegallySeparated"><h style="color:White;">Legally Separated</h>
+					</td>
+					
+					<td align="left"><label id="ct" for="ct" name="ct" style="color:White;">Citizenship</label></td>
+					<td align="center">:</td>
+					<td><input type="text" id="ct" name="ct" maxlength="20" size="25" placeholder="Type your citizenship here"></td>
+				</tr>
+				
+				<tr>
+				    <td align="left"><label id="Height" for="Height" name="Height" style="color:White;">Height</label></td>
+					<td align="center">:</td>
+					<td><input type="text" id="Height" name="Height" maxlength="20" size="10">&nbsp;<i style="color:White;">(cm)</i></td>
+					
+					<td align="left" style="width:85px"><label id="Weight" for="Weight" name="Weight" style="color:White;">Weight</label></td>
+					<td align="center">:</td>
+					<td><input type="text" id="Weight" name="Weight" maxlength="20" size="10">&nbsp;<i style="color:White;">(kg)</i></td>
+				</tr>
+				
+				<tr>
+			        <td  style="width:100px"><label id="rg" for="rg" name="rg" style="color:White;">Religion</label></td>
+				    <td align="center">:</td>
+				    <td style="width:70px"><input type="text" id="rg" name="rg" maxlength="20" size="40" placeholder="Type your religion here"></td>
+				</tr>
+				
+				<tr>
+			        <td  style="width:100px"><label id="Spouse" for="Spouse" name="Spouse" style="color:White;">Spouse</label></td>
+				    <td align="center">:</td>
+				    <td style="width:70px"><input type="text" id="Spouse" name="Spouse" maxlength="20" size="40" ></td>
+					
+					<td align="left"><label id="Occup" for="Occup" name="Occup" style="color:White;">Occupation</label></td>
+					<td align="center">:</td>
+					<td><input type="text" id="Occup" name="Occup" maxlength="20" size="25"></td>
+				</tr>
+				<tr>
+				    <td  style="width:100px"><label id="Fname" for="Fname" name="Fname" style="color:White;">Father's Name</label></td>
+				    <td align="center">:</td>
+				    <td style="width:70px"><input type="text" id="Fname" name="Fname" maxlength="20" size="40" ></td>
+					
+					<td align="left"><label id="Occup" for="Occup" name="Occup" style="color:White;">Occupation</label></td>
+					<td align="center">:</td>
+					<td><input type="text" id="Occup" name="Occup" maxlength="20" size="25"></td>
+				</tr>
+				<tr>
+				    <td  style="width:100px"><label id="mname" for="mname" name="mname" style="color:White;">Mother's Name</label></td>
+				    <td align="center">:</td>
+				    <td style="width:70px"><input type="text" id="mname" name="mname" maxlength="20" size="40" ></td>
+					
+					<td align="left"><label id="Occup" for="Occup" name="Occup" style="color:White;">Occupation</label></td>
+					<td align="center">:</td>
+					<td><input type="text" id="Occup" name="Occup" maxlength="20" size="25"></td>
+				</tr>
+			</table>
+			<br>
+			<table width="100%">
+			    <tr>
+				    <td style="width:145px"><label id="lang" for="lang" name="lang" style="color:White;">Language or Dialect</label></td>
+					<td ><input type="text" id="lang" name="lang" maxlength="20" size="40" ></td>
+				</tr>
+			</table>
+			<table width="100%">
+				<tr>
+				    <td style="width:250px"><label id="con" for="con" name="con" style="color:White;" >Contact Person In Case of Emergency</label></td>
+					<td ><input type="text" id="con" name="con" maxlength="20" size="40" ></td>
+				</tr>
+				<tr>
+				    <td style="width:250px"><label id="con" for="con" name="con" style="color:White;">Number of Contact Person </label></td>
+					<td ><input type="text" id="con" name="con" maxlength="20" size="40" ></td>
+				</tr>
+			</table>
+			<table width="80%"  >
+			    <p align=center style="font-family:Times New Roman; background-color:White; color:Black">EDUCATIONAL BACKGROUND</p>
+			    <tr>
+				    <td align="left"><label id="Elem" for="Elem" name="Elem" style="color:White;">Elementary</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="Elem" name="Elem" maxlength="20" size="40" ></td>
+			
+					<td align="left" style="width:100px"><label id="yearg" for="yearg" name="yearg" style="color:White;">Year graduated</label></td>
+					<td align="center">:</td>
+					<td ><input type="text" id="yearg" name="yearg" maxlength="20" size="25" ></td>
+				</tr>
+				<tr>
+				    <td align="left" style="width:100px"><label id="HS" for="HS" name="HS" style="color:White;">High School</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="HS" name="HS" maxlength="20" size="40" ></td>
+			
+					<td align="left" style="width:100px"><label id="yearg" for="yearg" name="yearg" style="color:White;">Year graduated</label></td>
+					<td align="center">:</td>
+					<td ><input type="text" id="yearg" name="yearg" maxlength="20" size="25" ></td>
+				</tr>
+				<tr>
+				    <td align="left" style="width:100px"><label id="Coll" for="Coll" name="Coll" style="color:White;">College</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="Coll" name="Coll" maxlength="20" size="40" ></td>
+			
+					<td align="left" style="width:100px"><label id="yearg" for="yearg" name="yearg" style="color:White;">Year graduated</label></td>
+					<td align="center">:</td>
+					<td ><input type="text" id="yearg" name="yearg" maxlength="20" size="25" ></td>
+				</tr>
+				<tr>
+				    <td align="left" style="width:120px"><label id="DR" for="DR" name="DR" style="color:White;">Degree Received</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="DR" name="DR" maxlength="20" size="40" ></td>
+			    </tr>
+			</table>
+			<table width="80%" >
+			    <p align=center style="font-family:Times New Roman; background-color:White; color:Black">EMPLOYMENT BACKGROUND</p>
+				<tr>
+				    <td align="left" style="width:120px"><label id="cname" for="cname" name="cname" style="color:White;">Company Name</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="cname" name="cname" maxlength="20" size="40" ></td>
+					
+					<td align="left" style="width:100px"><label id="Pos" for="Pos" name="Pos" style="color:White;">Position</label></td>
+					<td align="center">:</td>
+					<td ><input type="text" id="Pos" name="Pos" maxlength="20" size="25" ></td>
+			    </tr>
+				<tr>
+				    <td align="left" style="width:120px"><label id="cname" for="cname" name="cname" style="color:White;">Company Name</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="cname" name="cname" maxlength="20" size="40" ></td>
+					
+					<td align="left" style="width:100px"><label id="Pos" for="Pos" name="Pos" style="color:White;">Position</label></td>
+					<td align="center">:</td>
+					<td ><input type="text" id="Pos" name="Pos" maxlength="20" size="25" ></td>
+			    </tr>
+			</table>
+			<table width="80%" >
+			    <p align=center style="font-family:Times New Roman; background-color:White; color:Black">CHARACTER REFERENCE</p>
+				<tr>
+				    <td align="left" style="width:100px"><label id="Name" for="Name" name="Name" style="color:White;">Name</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="Name" name="Name" maxlength="20" size="40" ></td>
+					
+					<td align="left" style="width:100px"><label id="Pos" for="Pos" name="Pos" style="color:White;">Position</label></td>
+					<td align="center">:</td>
+					<td ><input type="text" id="Pos" name="Pos" maxlength="20" size="25" ></td>
+			    </tr>
+				<tr>
+				    <td align="left" style="width:100px"><label id="Name" for="Name" name="Name" style="color:White;">Company</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="Name" name="Name" maxlength="20" size="40" ></td>
+					
+					<td align="left" style="width:100px"><label id="Pos" for="Pos" name="Pos" style="color:White;">Contact No.</label></td>
+					<td align="center">:</td>
+					<td ><input type="text" id="Pos" name="Pos" maxlength="20" size="25" ></td>
+			    </tr>
+                <tr>
+				    <td align="left" style="width:100px"><label id="Name" for="Name" name="Name" style="color:White;">Name</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="Name" name="Name" maxlength="20" size="40" ></td>
+					
+					<td align="left" style="width:100px"><label id="Pos" for="Pos" name="Pos" style="color:White;">Position</label></td>
+					<td align="center">:</td>
+					<td ><input type="text" id="Pos" name="Pos" maxlength="20" size="25" ></td>
+			    </tr>
+				<tr>
+				    <td align="left" style="width:100px"><label id="Name" for="Name" name="Name" style="color:White;">Company</label></td>
+					<td align="center">:</td>
+					<td style="width:70px"><input type="text" id="Name" name="Name" maxlength="20" size="40" ></td>
+					
+					<td align="left" style="width:100px"><label id="Pos" for="Pos" name="Pos" style="color:White;">Contact No.</label></td>
+					<td align="center">:</td>
+					<td ><input type="text" id="Pos" name="Pos" maxlength="20" size="25" ></td>
+			    </tr>
+			</table>
+			<br><br>
+			<h3 style="color:White;">I do hereby that all the information above is true</h3>
+			<h2 align="right">
+			<input type="text" id="sign" name="sign" maxlength="20" size="25" >
+			</h2>
+			<h3 align="right" style="color:Black;">
+			Name and Signature
+			</h3>
+		</form>
+	</body>
+</html>
